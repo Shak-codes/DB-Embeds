@@ -15,6 +15,7 @@ export interface PostStats {
 export interface PostStreak {
   serverId: number;
   userId: number;
+  year: number;
   maxStreak: number;
   currentStreak: number;
   lastPost: Date;
